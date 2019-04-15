@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PQMVL26');</script>
+        <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guia Universidade</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQMVL26"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+            <a class="navbar-brand" target="_top" href="index.html"><img src="img/log.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white mr-5" href="#">Quem Somos<span class="sr-only">(Página
+                            atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="#">Baixar e-book gratuitamente</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="banner-header">
+
+    </header>
+
+    <main class="container mt-5">
+        <div class="card-deck">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestor de Resíduos</h5>
+                       
+               <a href="gestorderesiduos.html"><p class="card-text">Já pensou para onde vai todo lixo que produzimos? O Gestor de resíduos é o profissional preocupado com a gestão.</p></a> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestor de marketing e e-Commerce</h5>
+                        <a href="gestmark.html"><p class="card-text">O e-Commerce é super abrangente e a combinação com Marketing gera muitos resultados. </p></a> 
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Conselheiro Financeiro e de aposentadoria</h5>
+                        <a href=""><p class="card-text">A aposentadoria é almejada por muitos profissionais do mercado, mas será mesmo que todos vão conseguir se aposentar?</p></a> 
+                    </div>
+                </div>
+                <div class="card">
+                        <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Técnico em Telemedicina</h5>
+                            <a href=""><p class="card-text">Técnico em Telemedicina, uma das profissões do futuro na área da saúde.</p></a> 
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="card-deck mt-5">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bioinformacionista</h5>                           
+                   <a href=""><p class="card-text">Bioinformacionista e a Ciência da Vida, o profissional da saúde que todos desejarão.</p></a> 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuidador de idosos</h5>
+                            <a href=""><p class="card-text">Cuidador de Idosos, o anjo da guarda do futuro.</p></a> 
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Piloto de Drone </h5>
+                            <a href=""><p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p></a> 
+                        </div>
+                    </div>
+                    <div class="card">
+                            <img class="card-img-top" src="img/alunos.gif" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title">Gestor de Big Data</h5>
+                                <a href=""><p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p></a> 
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+    </main>
+
+    <footer class="footer mt-5" >
+
+        <div class="row col-10">
+        <div class="copyright ml-3">
+            <p class="text-white mb-0 ">2019 Copyright &copy - Guia Universidade </p>
+            <p class="text-white">Todos os direitos reservados</p>
+        </div>
+
+        <div class="footer-social ">
+            <a class="mr-2" target="_blank" href="https://www.instagram.com/guiauni/"><img src="img/instagramlogo.png" alt=""></a>
+
+            <a href="https://www.facebook.com/guiauni"><img target="_blank" src="img/facebooklogo.png" alt=""></a>
+
+        </div>
+
+    </div>
+</footer>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
