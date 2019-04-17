@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guia Universidade</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="ban-header">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+        <a class="navbar-brand" href="#">logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white mr-5" href="#">Quem Somos<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="formulario.html">Baixar e-book gratuitamente</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div id="message">
+        <h2></h2>
+        <h1>Bem vindx ao Guia Universidade! </h1>
+        <p>Preencha os dados para conseguir seu E-book</p>
+        <div>
+
+
+            <h1>Dados</h1>
+
+            <form name="captura" action="" method="POST" id="contactForm">
+
+                <div class="nome">
+                    <label for="name">Nome Completo</label>
+                    <br>
+                    <input  type="text" class="form-control" placeholder="Qual seu nome?" required="required" id="name">
+
+                </div>
+
+                <br>
+                <br>
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="text" class="form-control" placeholder="Qual seu e-mail?" required="required" id="email">
+                </div>
+
+                <br/>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            <br>
+            <br>
+
+
+        </div>
+
+        <!-- <a target="_top" id="addButton" href="index.html">Baixar E-book</a> -->
+    </div>
+
+    <footer class="footer mt-5" >
+
+        <div class="row col-10">
+            <div class="copyright ml-3">
+                <p class="text-white mb-0 ">2019 Copyright &copy - Guia Universidade </p>
+                <p class="text-white">Todos os direitos reservados</p>
+            </div>
+
+            <div class="footer-social ">
+                <a class="mr-2" target="_blank" href="https://www.instagram.com/guiauni/"><img src="img/instagramlogo.png" alt=""></a>
+
+                <a href="https://www.facebook.com/guiauni"><img target="_blank" src="img/facebooklogo.png" alt=""></a>
+
+            </div>
+
+        </div>
+</footer>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/formulario.js"></script>
+
+
+</body>
+
+</html>
