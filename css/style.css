@@ -254,3 +254,18 @@ article > p {
     background-color: #4AC959;
 }
 
+#submit-btn {
+    background-color: #280968;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+#submit-btn:hover {
+    opacity: 0.8;
+    
+}
