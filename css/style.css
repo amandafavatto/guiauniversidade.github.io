@@ -8,13 +8,13 @@ nav{
     z-index: 9999;
 }
 
-header > h1{
+.escrit{
     font-family: 'Montserrat'; font-size: 40px;
     font-weight: bold;
     color: #fff;
-    align-self: center;
     text-align: center;
 }
+
 header > h3 {
     font-size: 0.9rem;
 }
@@ -30,19 +30,6 @@ header > h3 {
 }
 
 
-.btn {
-    font-family: 'Montserrat'; 
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #db0f54;
-    background: #fff;
-    border-radius: 50px;
-    width:350px;
-
-}
-
-#botao{text-align: center}
 
 .btn :hover{
      background: #000;
@@ -66,19 +53,22 @@ header > h3 {
 }
 
 
-
-header{
-    background-image: url(../img/GuiaUni-Foto01.png);
-    height: 44vh;
+.banart img {
+    height: 350px;
     width: 100%;
     background-size: cover;
     background-position-y: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-    
+
 }
+
+.artban h1{
+    text-align: center;
+
+}
+
 #message { color: rgba(0,0,0,0.87); 
            font-family: 'Montserrat'; 
            background:whitesmoke; 
@@ -118,15 +108,129 @@ header{
 
         
 
-.ban-header{
+.ban-index{
     background-image: url(../img/GuiaUni-Foto01.png);
     background-size:cover ;
     background-position: center;
     position: center;
-    
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+   
    }
+.ban-carreiras{
 
+    background-image: url(../img/carreiras.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
 
+    
+}
+
+.ban-carreiras h1{
+    font-size: 60px;
+}
+.ban-credito {
+background-image: url(../img/CreditoUni.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+}
+.ban-credito h1{
+    font-size: 60px;
+}
+.ban-habfut{
+    background-image: url(../img/habilidades.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+}
+.ban-habfut h1{
+    font-size: 60px;
+}
+.ban-conheobri{
+    background-image: url(../img/Conhecimento.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+}
+.ban-conheobri h1{
+    font-size: 40px;
+}
+
+.ban-novfies{
+    background-image: url(../img/FIES.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+    
+}
+.ban-novfies h1{
+    font-size: 60px;
+}
+.ban-taxcon {
+    background-image: url(../img/conclusaomedio.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+}
+.ban-taxcon h1{
+    font-size: 60px;
+}
+#submit-btn {
+    background-color: #280968;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+#submit-btn:hover {
+    opacity: 0.8;
+    
+}
 
 a{
     text-decoration: none !important;
@@ -146,9 +250,9 @@ a{
     display: flex;
     position: relative;
     box-sizing: border-box;
-    justify-content: center;
     align-items: center;
     margin-top: -50px;
+    text-align: left;
 
 }
 html, body{
@@ -184,7 +288,9 @@ html, body{
     font-family: 'Montserrat';
     font-weight: bold;
     color: #000;
+    
 }
+
 
 
 
@@ -253,19 +359,13 @@ article > p {
 .whatsapp {
     background-color: #4AC959;
 }
-
-#submit-btn {
-    background-color: #280968;
-    border: none;
-    border-radius: 2em;
-    color: #fff;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 3em;
-    padding-left: 3em;
+.container {
+    display: block;
 }
 
-#submit-btn:hover {
-    opacity: 0.8;
-    
+.card {
+	max-width: 250px;
+	margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
 }
