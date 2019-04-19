@@ -3,17 +3,151 @@
 
 }
 
-nav{
+/*nav{
     background-color: #db0f54;
     z-index: 9999;
 }
+/*.navBar {
+    position: relative;
+    min-width: 100%;
+    z-index: 3;
+    background:#db0f54;
+    height: 80px;
+    top: 0px;
+}
 
-.escrit{
-    font-family: 'Montserrat'; font-size: 40px;
+.logo {
+  display: inline-block;
+  height: 80px;
+  margin: 5px 20px ;
+  width: 170px;
+  padding-bottom: 15px;
+}
+
+.hope {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  min-width: 40%;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+nav ul a {
+  color: #FFF;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+nav ul a:hover {
+  color: #AAA;
+}
+nav li {
+    display: inline-block;
+    padding: 6px 17px;
+    font-size: 20px;
+    font-family: 'Brandon Grotesque';
+    font-weight: normal;
+  font-style: normal;
+}
+
+nav ul li:last-child a{
+    padding: 6px 17px;
+    border: 2px solid;  
+    border-radius: 5px;
+    color: #00E4D9;
+}
+
+#menu-icon { display: none; /* hide menu icon initially *}
+
+nav ul li:last-child a:hover{
+    color: #00ABAF;
+}
+
+nav #menu-toggle {
+  display: none;
+}
+nav .label-toggle {
+  display: flex;
+}
+nav .hope {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  nav nav ul a {
+    color: #FFF;
+  }
+  nav ul {
+    background-color: #db0f54;
+    display: block;
+    height: 0;
+    list-style-type: none;
+    opacity: 0;
+    text-align: center;
+    transition: all 1s ease;
+    width: 100%;
+    visibility: hidden;
+
+  }
+  nav li {
+    color: #53354A;
+    display: block;
+    font-size: 1.5em;
+    padding: 1em 0;
+    text-align: center;
+  }
+  nav #menu-toggle:checked ~ ul {
+    opacity: 1;
+    height: 100vh;
+    visibility: visible;
+    background:#db0f54; 
+  }
+  nav .label-toggle {
+    background: linear-gradient(to bottom, #FFF 0%, #FFF 20%, transparent 20%, transparent 40%, #FFF 40%, #FFF 60%, transparent 60%, transparent 80%, #FFF 80%, #FFF 100%);
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 35px;
+    margin-top: 3em;
+    margin-right: 2em;
+    width: 35px;
+  }
+  nav .hope {
+    display: block;
+  }
+}
+#divBusca{
+    background-color:#fff;
+    border:#fff;
+    border-radius:20px;
+    width: 350px;
+    
+  }
+   
+ #txtBusca{
+    float:right;
+    background-color:transparent;
+    padding-left:25px;
+    font-style:'Montserrat';
+    font-size:18px;
+    border:none;
+    height:45px;
+    width:300px;
+       
+  }*/
+
+/*.escrit{
+    font-family: 'Montserrat'; 
+    font-size: 40px;
     font-weight: bold;
     color: #fff;
     text-align: center;
-}
+}*/
 
 header > h3 {
     font-size: 0.9rem;
@@ -29,45 +163,33 @@ header > h3 {
 
 }
 
-
-
-.btn :hover{
-     background: #000;
-}
-
-.btform {
+header > .escrit{
     font-family: 'Montserrat'; 
-    font-size: 16px;
-    border: none;
-    padding: 15px;
-    background: #db0f54;
+    font-size: 40px;
+    font-weight: bold;
     color: #fff;
-    border-radius: 50px;
-    width:350px;
-    padding-left: 5%;
-}
-
-#botform a{
     text-align: center;
+    align-items: center;
+    
+}
 
+header .escrit-one{
+    font-family: 'Montserrat'; 
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 26px;
+    padding-top: 60px;
+    height: 50px;
+}
+header #botao{
+    font-size: 26px;
+    padding-top: 60px;
 }
 
 
-.banart img {
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position-y: 40%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
-}
 
-.artban h1{
-    text-align: center;
-
-}
 
 #message { color: rgba(0,0,0,0.87); 
            font-family: 'Montserrat'; 
@@ -95,7 +217,11 @@ header > h3 {
 #message p { line-height: 140%; 
              margin: 16px 0 24px; 
              font-size: 14px; }
-             
+#message> #message a{
+                align-items: center;
+                display: flex;
+            
+            }             
 
 
 #load { color: rgba(0,0,0,0.4); 
@@ -106,23 +232,60 @@ header > h3 {
         
         }
 
-        
+header .ban-index{
+    text-align: center
+}
+
 
 .ban-index{
-    background-image: url(../img/GuiaUni-Foto01.png);
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/GuiaUni-Foto01.png);
     background-size:cover ;
     background-position: center;
     position: center;
-    height: 350px;
+    height: 360px;
     width: 100%;
     justify-content: center;
     flex-direction: column;
     background-position-y: 40%;
    
    }
+.ban-index .escrit h1{
+    font-size: 26px;
+    padding-top: 60px;
+    height: 64px;
+}
+.ban-index .form-control{
+    border-radius: 34px;
+    border: #fff;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 280px;
+    height: 41.88px;
+    
+}
+.ban-index #email::-webkit-input-placeholder{
+    color:#FFFFFF;
+    background-color: none;
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: 'Montserrat';
+    
+}
+.ban-index #name::-webkit-input-placeholder{
+    color:#FFFFFF;
+    background-color: none;
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: 'Montserrat';
+}
+
+
 .ban-carreiras{
 
-    background-image: url(../img/carreiras.png);
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/carreiras.png);
     background-size:cover ;
     background-position: center;
     position: center;
@@ -138,9 +301,11 @@ header > h3 {
 
 .ban-carreiras h1{
     font-size: 60px;
+    padding-top: 90px;
 }
 .ban-credito {
-background-image: url(../img/CreditoUni.png);
+background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/CreditoUni.png);
     background-size:cover ;
     background-position: center;
     position: center;
@@ -153,9 +318,11 @@ background-image: url(../img/CreditoUni.png);
 }
 .ban-credito h1{
     font-size: 60px;
+    padding-top: 90px;
 }
 .ban-habfut{
-    background-image: url(../img/habilidades.png);
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/habilidades.png);
     background-size:cover ;
     background-position: center;
     position: center;
@@ -168,9 +335,11 @@ background-image: url(../img/CreditoUni.png);
 }
 .ban-habfut h1{
     font-size: 60px;
+    padding-top: 90px;
 }
 .ban-conheobri{
-    background-image: url(../img/Conhecimento.png);
+    background-image:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/Conhecimento.png);
     background-size:cover ;
     background-position: center;
     position: center;
@@ -183,10 +352,12 @@ background-image: url(../img/CreditoUni.png);
 }
 .ban-conheobri h1{
     font-size: 40px;
+    padding-top: 90px;
 }
 
 .ban-novfies{
-    background-image: url(../img/FIES.png);
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/FIES.png);
     background-size:cover ;
     background-position: center;
     position: center;
@@ -200,9 +371,11 @@ background-image: url(../img/CreditoUni.png);
 }
 .ban-novfies h1{
     font-size: 60px;
+    padding-top: 90px;
 }
 .ban-taxcon {
-    background-image: url(../img/conclusaomedio.png);
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/conclusaomedio.png);
     background-size:cover ;
     background-position: center;
     position: center;
@@ -215,49 +388,57 @@ background-image: url(../img/CreditoUni.png);
 }
 .ban-taxcon h1{
     font-size: 60px;
+    padding-top: 90px;
+
 }
-#submit-btn {
-    background-color: #280968;
-    border: none;
-    border-radius: 2em;
-    color: #fff;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 3em;
-    padding-left: 3em;
+.ban-5dicas {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/5estudar.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+
 }
 
-#submit-btn:hover {
-    opacity: 0.8;
+.ban-5dicas h1{
+    font-size: 60px;
+    padding-top: 90px;
+
+}
+
+.container > .ban-obrigada{
+
+    font-size: 60px;
+    display: block;
+    align-items: center;
+    background-position: 90px;  
+    padding-top: 120px;  
+    padding-bottom: 120px;
+
+
+}
+
+.container > .ban-obrigada h1{
+    font-size: 60px;
     
 }
-
 a{
     text-decoration: none !important;
     color: #000;
     
 }
 
-.footer, .push {
-    height: 50px;
-}
 
-
-
-.footer{
-    height: 10vh;
-    background-color: #ee8e31;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    align-items: center;
-    margin-top: -50px;
-    text-align: left;
-
-}
 html, body{
     height: 100%;
-    margin: 0;
+    margin: 0;  
+	padding:0;
 }
 
 .wrapper {
@@ -265,34 +446,19 @@ html, body{
     margin-bottom: -50px;
   }
 
-.copyright p{
-    margin: 0%;
-    text-align: left;
-    align-items: flex-start;   
-    padding-left: 0%;
-}
-
-.footer-social{
-    display: flex;
-    align-items: center;
-    margin-left: 60%;
-
-}
 
 .arts {
     padding-left: 10%;
     padding-right: 10%;
-    text-align: justify;
+    text-align: left;
 }
 .arts > h1, h3, p, .titles, a {
     font-family: 'Montserrat';
     font-weight: bold;
     color: #000;
+    line-height: 30px;
     
 }
-
-
-
 
 .titles > div > a:hover {
     color: #db0f54
@@ -304,6 +470,13 @@ html, body{
 article > .text-info {
     text-indent: 4em;
     font-weight: normal;
+    line-height: 30px;
+    
+}
+
+
+.text-info a{
+    align-items: center;
 }
 
 article > p {
@@ -321,13 +494,131 @@ article > p {
     padding-right: 1.5%;
 }
 
+
+.container {
+    display: block;
+    
+}
+
+.card {
+	max-width: 250px;
+	margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.card h5 {
+    font-weight: 0;
+    font-size: 18px;
+
+}
+
+.ban-posgrd{
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/GuiaUni-Foto-Dicas-de-pos.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+}
+.ban-posgrd h1{
+    font-size: 60px;
+    padding-top: 90px;
+}
+
+.footer {
+    margin-top: 16vh;
+    background-color: #ee8e31;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    color: #fff;
+}
+
+.footer > .ft-copyright {
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+}
+
+.footer > .ft-social {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+.ft-social > span {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        font-size: 0.7rem;
+    }
+    .ft-social {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.btn-form {
+    font-family: 'Montserrat'; 
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #db0f54;
+    background: #fff;
+    border-radius: 50px;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: none;
+    text-align: center;
+    line-height: normal;
+
+    width: 276px;
+    height: 72px;
+    /* left: 544px; */
+    margin: 0 auto;
+
+
+}
+
+@media (max-width: 710px) {
+    .btn-form {
+        font-size: 15px;
+        width: 200px;
+        height: 72px;
+        margin-top: 60px;
+        display: flex;
+    }
+}
+
+@media (max-width: 710px) {
+    .escrit > h1 {
+        font-size: 30px;
+        
+    }
+}
+
+
 .share {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
 }
 
 .share > div {
@@ -335,11 +626,15 @@ article > p {
     padding-left: 5px;
     font-size: 10vh;
     color: white;
-    flex-grow: 1
+    flex-grow: 1;
     
 }
 
-.share> a:visited {
+.share i {
+    color: #fff;
+}
+
+.share > a:visited {
     color: #fff;
 }
 
@@ -359,13 +654,110 @@ article > p {
 .whatsapp {
     background-color: #4AC959;
 }
-.container {
-    display: block;
+
+@media (max-width: 710px) {
+    i {
+        font-size: 6vh;
+    }
 }
 
-.card {
-	max-width: 250px;
-	margin: 0 auto;
-    border: 1px solid #ccc;
-    display: flex;
+.btn-pagform {
+    font-family: 'Montserrat'; 
+    font-size: 16px;
+    border: none;
+    padding: 15px;
+    background: #db0f54;
+    color: #fff;
+    border-radius: 50px;
+    width:350px;
+    padding-left: 5%;
+
 }
+
+header li{
+    display: inline-block;
+        padding: 6px 17px;
+        font-size: 20px;
+        font-family: 'Brandon Grotesque';
+        font-weight: normal;
+      font-style: normal;
+      
+    }
+
+    .navBar {
+        display: flex;
+        background-color: #DB0F54;
+        height: auto;
+    }
+    
+    .navBar-items {
+        display: flex;
+    }
+    
+    a.navBar-a, a.navBar-a:visited {
+        text-decoration: none;
+        color: #fff;
+        
+    }
+    .navBar-link {
+        padding-right: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    }
+    
+    .navBar-items {
+        margin-left: auto;
+        align-self: center;
+    }
+    
+    #txtBusca {
+        border-radius: 4px;
+        border: none;
+        padding: 3px;
+        margin-bottom: 8px;
+    }
+    
+    .navBar-link-toggle {
+        display: none;
+    }
+    
+    .nav-logo {
+        width: 130px;
+        height: auto;
+        margin-left: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .navBar-items,
+        .navBar {
+            flex-direction: column;
+        }
+        .navBar-items {
+            display: none;
+        }
+        .navBar-items {
+            margin-left: 0;
+        }
+        .navBar-link-toggle {
+            align-self: flex-end;
+            display: flex;
+            position: absolute;
+            cursor: pointer;
+            font-size: 40px;
+            flex-direction: row;
+            padding: 18px; 
+        }
+        .nav-logo {
+            align-items: center;
+        }
+        .Navbar__ToggleShow {
+            display: flex;
+            align-self: flex-end;
+            text-align: right;
+          }
+    }
+
+
+
