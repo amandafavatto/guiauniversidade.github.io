@@ -9,7 +9,7 @@ firebase.initializeApp({
 });
 
 // reference messages collection
-var usersRef = firebase.database().ref('users');
+var deposRef = firebase.database().ref('depos');
 
 //Listen for form submit
 var form = document.getElementById('contactForm');
@@ -24,6 +24,8 @@ async function submitForm(e) {
     //Get Values
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
+    // var email_dois = document.getElementById('email_dois').value;
+    var depoimento = document.getElementById('depoimento').value;
     var date = new Date();
     var ipInfo = await fetch("https://ipapi.co/json/").then(res => res.json());
 
@@ -40,18 +42,20 @@ async function submitForm(e) {
     formattedDate += ":";
     formattedDate += date.getSeconds().toString().length === 1 ? "0" + date.getSeconds() : date.getSeconds();
 
-    usersRef.push().set({
+    deposRef.push().set({
         email: email,
         name: name,
+        // email_dois: email_dois,
+        depoimento: depoimento,
         date: formattedDate,
         ip: ipInfo.ip
     });
 
     document.getElementById('name').value = "";
     document.getElementById('email').value = "";
+    document.getElementById('depoimento').value = "";
 
     alert("Cadastro feito com sucesso");
     window.location.href = "https://guiauniversidade.com/obrigada.html"
 
-    
 }
