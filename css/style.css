@@ -162,10 +162,13 @@ header > h3 {
     color: #db0f54;
 
 }
+@media (max-width: 991px) { .card-text { display: none;}}
+
+
 
 header > .escrit{
     font-family: 'Montserrat'; 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -231,7 +234,7 @@ header #botao{
 @media (max-width: 600px) {
         
         }
-
+/*
 header .ban-index{
     text-align: center
 }
@@ -252,7 +255,7 @@ header .ban-index{
    }
 .ban-index .escrit h1{
     font-size: 26px;
-    padding-top: 60px;
+    padding-top: 30px;
     height: 64px;
 }
 .ban-index .form-control{
@@ -280,6 +283,102 @@ header .ban-index{
     font-style: bold;
     font-family: 'Montserrat';
 }
+*/
+header .ban-index{
+    text-align: center
+}
+.ban-index{
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/GuiaUni-Foto01.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 315px; /*Largura do Banner*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+   }
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    Align-items: center;
+}
+.cadastro h1 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+    .cadastro h1 {
+        font-size: 20px;
+    }
+    #name, #email, #submit {
+        width: 200px;
+    }
+}
+#name, #email, #submit {
+    margin: 10px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
+}
+
+#submit {
+    background-color: #fff;
+    color: #db0f54;
+    font-weight: bold;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.name, .email {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+input.name::placeholder, input.email::placeholder {
+    color: #fff;
+}
+.email-form {
+    color: #000;
+}
+.form-control {
+    background-color: transparent;
+    border: 1px solid #db0f54;
+    color: #000;
+}
+input.form-control::placeholder {
+    color: #000;
+}
+    
+
+/*#cadastro-form {
+    display: flex;
+    justify-content: center;
+}*/
+
+.cadastro-form{
+    margin: 0 auto;
+width: 70%
+}
+.container-form{
+    display: flex;
+Flex-direction: column;
+Align-items: center;
+justify-content: center;
+}
+
+
 
 
 .ban-carreiras{
@@ -412,6 +511,127 @@ background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
 
 }
 
+.ban-dep {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/depoimentos.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-position-y: 40%;
+    padding-bottom: 10px;
+}
+
+.ban-dep h1{
+    font-size: 60px;
+    padding-top: 90px;
+}
+
+/* depoimentos */
+
+.depoimento-white {
+    display: flex;
+    /* border: 1px solid black;    */
+}
+
+.depoimento-cinza{
+    background-color: #F4F4F4;
+    display: flex;
+    /* border: 1px solid black;    */
+}
+
+.dep-direita {
+    display: block;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    /* border: 1px solid red; */
+    width: 60%;
+}
+
+.dep-direita > p {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+@media (max-width: 914px) {
+    .dep-direita > p {
+        font-size: 1.8vh;}
+    .dep-direita > h5 {
+        font-size: 2vh;}
+
+    
+}
+
+@media (max-width: 710px) {
+    .dep-direita > p {
+        font-size: 1.8vh;
+    }
+}
+
+@media (max-width: 456px) {
+    .dep-direita > p {
+        font-size: 1.8vh;
+    }
+}
+
+.dep-direita > h5 {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.dep-direita-autor {
+    text-align: right;
+    display: block;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 40%;
+}
+
+.dep-direita-autor > p {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.dep-direita-autor > h5 {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.dep-esquerda > p {
+    margin-bottom: 0;
+}
+
+.dep-esquerda {
+    display: block;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    /* border: 1px solid blue; */
+}
+
+.quote {
+    border-left: 1px solid #000;
+    padding-left: 3%;
+    font-weight: normal;       
+}
+
+.quote-cinza {
+    border-right: 1px solid #000;
+    padding-right: 3%;
+    text-align: right;   
+    font-weight: normal;
+}
+
+
 .container > .ban-obrigada{
 
     font-size: 60px;
@@ -451,6 +671,8 @@ html, body{
     padding-left: 10%;
     padding-right: 10%;
     text-align: left;
+    margin-top: 30vh;
+    
 }
 .arts > h1, h3, p, .titles, a {
     font-family: 'Montserrat';
@@ -538,18 +760,30 @@ article > p {
     box-sizing: border-box;
     flex-direction: row;
     color: #fff;
+    flex-wrap: wrap;    
 }
 
 .footer > .ft-copyright {
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 50%;
+    width: 50%; 
 }
 
-.footer > .ft-social {
+.ft-copyright > span {
+    margin-right: 1%;
+
+}
+.ft-social img {
+    width: 7vh;
+}
+.linha-ft {
+    margin: 1%;
+}
+.ft-social {
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     padding-right: 5%;
     padding-top: 1%;
@@ -566,9 +800,9 @@ article > p {
     .footer {
         font-size: 0.7rem;
     }
-    .ft-social {
-        display: flex;
-        align-items: center;
+    .ft-social img {
+        width: 3vh;
+        padding-right: 0%;
     }
 }
 
@@ -594,6 +828,15 @@ article > p {
 
 
 }
+@media (max-width: 994px) {
+    .img-art {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
 
 @media (max-width: 710px) {
     .btn-form {
@@ -619,15 +862,12 @@ article > p {
     justify-content: center;
     text-align: center;
     align-items: center;
+    flex-grow: 1;
 }
 
-.share > div {
-    padding-right: 5px;
-    padding-left: 5px;
+.share a {
+    width: 50%;
     font-size: 10vh;
-    color: white;
-    flex-grow: 1;
-    
 }
 
 .share i {
@@ -640,24 +880,33 @@ article > p {
 
 .facebook {
     background-color: #3C5A99;
-    
+    padding: 2%;
+    color: white;
 }
 
 .twitter {
     background-color: #1DA1F2;
+    padding: 2%;
+    color: white;
 }
 
 .linkedin {
     background-color: #0077B5;
+    padding: 2%;
+    color: white;
+
 }
 
 .whatsapp {
     background-color: #4AC959;
+    padding: 2%;
+    color: white;
 }
 
 @media (max-width: 710px) {
     i {
         font-size: 6vh;
+        color: #fff;
     }
 }
 
@@ -671,7 +920,15 @@ article > p {
     border-radius: 50px;
     width:350px;
     padding-left: 5%;
+}
 
+.btn-pagform a {
+    color: #fff;
+}
+
+.linha-form {
+    display: flex;
+    justify-content: center;
 }
 
 header li{
@@ -697,26 +954,29 @@ header li{
     a.navBar-a, a.navBar-a:visited {
         text-decoration: none;
         color: #fff;
-        
     }
+
+    .navBar-a {
+        font-weight: normal;
+    }
+
     .navBar-link {
-        padding-right: 8px;
+        padding-right: 10px;
+        padding-left: 10px;
         font-family: 'Montserrat', sans-serif;
         color: #fff;
     }
     
+    #divBusca {
+        padding-left: 10px;
+        margin-right: 8px;
+    }
     .navBar-items {
         margin-left: auto;
         align-self: center;
     }
     
-    #txtBusca {
-        border-radius: 4px;
-        border: none;
-        padding: 3px;
-        margin-bottom: 8px;
-    }
-    
+   
     .navBar-link-toggle {
         display: none;
     }
@@ -759,5 +1019,243 @@ header li{
           }
     }
 
+    #txtBusca {
+        border-radius: 20px;
+        border: none;
+   }
+   @media (max-width: 769px) { #divBusca { display: none;}}
 
+   #divbusca{
+       display: flex;
+       Position: relative;
+
+   }
+    #divBusca #title{
+        background-color:#fff;
+        border:#fff;
+        border-radius:20px;
+        padding: 5px;
+        margin-right: 5px;
+            
+      }
+#artigos{
+    position: absolute;
+    Background: #fff;
+    List-style: none;
+    Right: 0;
+    margin-right: 10px;
+
+}
+#artigos li a { font-size: 11px;}
+
+.ban-form {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/GuiaUni-Foto01.png);
+    background-size:cover ;
+    height: 360px;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.ban-form .form-control{
+    border-radius: 34px;
+    
+}
+.ban-form .escrit-one{
+    float: inline-end;
+}
+/*Forms meio artigos*/
+.agressive{
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, 0.5)),
+    url(../img/GuiaUni-Foto01.png);
+    background-size:cover ;
+    background-position: center;
+    position: center;
+    height: 215px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.agres-form{
+    display: flex;
+Flex-direction: column;
+Align-items: center;
+justify-content: center;
+}
+/*Forms meio artigos*/
+
+.container-ebook {
+    display: flex;
+    justify-content: center;
+    margin: 3% 10% 5% 10%;
+}
+
+
+.ebook {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0% 2% 2% 2%;
+}
+
+.ebook > p {
+    font-weight: normal;
+}
+.ebook > img {
+    padding-bottom: 2%;
+    width: 100%;
+}
+
+.form-ebook {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+.form_ebook > p {
+    font-weight: normal;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome, .email-form {
+    width: 100%;
+}
+
+.nome > input#name:only-of-type {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.email-form > input#email:only-of-type {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 728px) {
+    .container-ebook {
+        flex-direction: column;
+        /* margin: 3%; */
+        /* width: 100%; */
+        justify-content: center;
+        align-items: center;
+    }
+    div.form-ebook {
+        margin-left: 0;
+    }
+    div.ebook {
+        width: 100%;
+    }
+}
+
+/* teste */
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .dot-pt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14vh;
+    flex-direction: row;
+  }
+
+  .dot-txt {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  @media (max-width: 914px) {
+      .dot-pt {
+          margin-top: 0;
+      }
+  }
+
+  @media (max-width: 710px) {
+      .dot-pt {
+          margin-top: 20vh;
+      }
+  }
+
+  @media (max-width: 456px) {
+    .dot-pt {
+        margin-top: 15vh;
+    }
+}
+
+.dot-pt > h5 {
+    font-weight: normal;
+}
+
+.dot-pt > h4 {
+    font-weight: bold;
+}
+
+.dot-pt-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+.dot-pt-1 > h5 {
+    font-weight: normal;
+}
+
+.dot-pt-1 > h4 {
+    font-weight: bold;
+}
+
+@media (max-width: 704px) {
+    .dot-pt-1 {
+        margin-top: 15vh;
+    }
+}
+
+
+
+ /* .hr-art {
+    width: 30%;
+    height: 0px;
+    border: 1px solid black;
+    align-self: flex-start;
+    margin-top: -8vh;
+    
+ }
+
+.hr-art2 {
+    width: 30%;
+    height: 0px;
+    border: 1px solid black;
+    align-self: flex-end;
+  
+     */
+}
 
