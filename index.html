@@ -27,6 +27,7 @@
     <!-- End Google Tag Manager (noscript) -->
     
     <div class="wrapper">
+        
 
             <div class="navBar">
                     <div class="nav-logo">
@@ -37,32 +38,42 @@
                     </div>
                 <nav class="navBar-items">
                     <div class="navBar-link"> 
-                        <a class="navBar-a" href="quemsomos.html">Quem Somos</a>
+                        <a class="navBar-a" href="ebook.html">E-book</a>
                     </div>
                     <div class="navBar-link"> 
-                        <a class="navBar-a" href="contato.html">Contato</a>
+                        <a class="navBar-a" href="ebook.html">Depoimentos</a>
+                    </div>
+                    <div class="navBar-link"> 
+                            <a class="navBar-a" href="quem-somos.html">Quem Somos</a>
+                    </div>
+                    <div class="navBar-link"> 
+                        <a class="navBar-a" href="formulario.html">Cadastre-se</a>
                     </div>
                     <div id="divBusca">
-                      <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                      <img src="img/" id="btnBusca" alt=""/>
+                      <input  type="text" id="title" placeholder="Buscar..."/>
+                      <ul id="artigos"></ul>
+                      
                       </div>
                 </nav>
             </div>
-
+                
     <header class="ban-index" >
-        
-         <div class="escrit">
-        <h1> Tudo o que você precisa para <br> <b>decolar na sua carreira, está aqui!</b></h1>
-        
-        <form name="captura" action="" method="POST" id="contactForm">
-        <div class="escrit-one"><ul><li><input style="background-color:transparent;" type="text" class="form-control" placeholder="Nome Completo" required="required" id="name"></li><li><input style="background-color:transparent;" type="text" class="form-control" placeholder="E-mail" required="required" id="email"></li></div></ul>
-        <div id="botao">
-        <a href="obrigada.html">
-        <button type="submit" class="btn-form"> Cadastre-se aqui para ficar atualizado! </button></a>
-        <!--<button class="btn"> Cadastre-se aqui para ficar atualizado! </button></a>-->
-    </form>
-    </div>  
-</div> 
+        <div class="cadastro">
+                <h1>Tudo o que você precisa para <br><strong>decolar na sua carreira está aqui!</strong></h1>
+                <form class="cadastro-form" id="contactForm">
+                    <div class="container-form">
+                    <div class="linha">
+                    <input type="text" id="name" name="name" placeholder="NOME COMPLETO" required>
+                    <input type="email" id="email" name="email" placeholder="E-MAIL" required>
+                    </div>
+                    <div class="linha">
+                    <button type="submit" id="submit">Cadastre-se aqui para ficar atualizado!</button>
+                    </div>
+                    </div>
+                    </form>
+
+
+        </div>
     </header>
 
     <section class="container mt-5">
@@ -123,7 +134,7 @@
                         <div class="card">
                                 <a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><img class="card-img-top" src="img/5estudar.png"   alt=”Capa do card”/></a>
                                 <div class="card-body">
-                                <a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><h5 class="card-title">5 Dicas para estudar de maneira mais eficiente</h5></a>
+                                <a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><h5 class="card-title"><B>5 Dicas para estudar de maneira mais eficiente</B></h5></a>
                                     </h5><a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><h5 class="card-text">Uns amam estudar, outros já ficam pensando em como vão fazer para passar naquela prova terrível da semana que vem.</h5></a> 
                                 </div>
                             </div>
@@ -137,6 +148,43 @@
                                     </h5></a> 
                         </div>
                     </div>
+                   
+                </div>
+            </div>
+            <div class="card-deck mt-5">
+                <div class="card-deck">
+                        <div class="card">
+                                <a href="5-aplicativos-que-vao-salvar-a-sua-vida-na-universidade.html"><img class="card-img-top" src="img/5apps.png"   alt=”Capa do card”/></a>
+                                <div class="card-body">
+                                <a href="5-aplicativos-que-vao-salvar-a-sua-vida-na-universidade.html"><h5 class="card-title"><B>5 aplicativos que vão salvar a sua vida na universidade</B></h5></a>
+                                    </h5><a href="5-aplicativos-que-vao-salvar-a-sua-vida-na-universidade.html"><h5 class="card-text">Hoje em dia, é praticamente impossível pensar nossa vida sem os aplicativos no celular. <b>Segura essa</b></h5></a> 
+                            </div>
+                        </div>
+                    <!--  <div class="card">
+                                <a href="taxa-de-conclusao-de-ensino-medio.html"><img class="card-img-top" src="img/conclusaomedio.png"   alt=”Capa do card”/></a>
+                                <div class="card-body">
+                                <a href="taxa-de-conclusao-de-ensino-medio.html" ><h5 class="card-title"><B>Taxa de Conclusão de Ensino Médio</B></h5></a>
+                                    </h5>
+                                <a href="taxa-de-conclusao-de-ensino-medio.html"><h5 class="card-text">Você sabia que no Brasil a taxa de pessoas que concluem o Ensino Médio abaixo dos 25 anos é inferior a 60%? </h5></a> 
+                            </div>
+                        </div>
+                        <div class="card">
+                                <a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><img class="card-img-top" src="img/5estudar.png"   alt=”Capa do card”/></a>
+                                <div class="card-body">
+                                <a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><h5 class="card-title"><B>5 Dicas para estudar de maneira mais eficiente</B></h5></a>
+                                    </h5><a href="5-dicas-para-estudar-de-maneira-mais-eficiente.html"><h5 class="card-text">Uns amam estudar, outros já ficam pensando em como vão fazer para passar naquela prova terrível da semana que vem.</h5></a> 
+                                </div>
+                            </div>
+                            
+                    <div class="card">
+                            <a href="dicas-sobre-pos-graduacao.html"><img class="card-img-top" src="img/GuiaUni-Foto-Dicas-de-pos.png"   alt=”Capa do card”/></a>
+                            <div class="card-body">
+                            <a href="dicas-sobre-pos-graduacao.html"><h5 class="card-title"><B>Dicas sobre pós graduações</B></h5></a>
+                                </h5><a href="dicas-sobre-pos-graduacao.html"><h5 class="card-text">Quer fazer uma pós graduação mas ainda está em dúvidas? Neste artigo vamos dar dicas infalíveis para te ajudar na hora de tomar essa decisão!!
+
+                                    </h5></a> 
+                        </div>
+                    </div>-->
                    
                 </div>
             </div>
@@ -185,6 +233,7 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/formulario.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/pesquisa.js"></script>
 
 </body>
 
