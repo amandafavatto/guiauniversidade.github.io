@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PQMVL26');</script>
+        <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,29 +20,43 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQMVL26"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=308163739855708&autoLogAppEvents=1"></script>        
         <div class="wrapper">
 
 
-    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
-            <a class="navbar-brand" target="_top" href="index.html"><img src="img/GuiaUni-Logo-v1.0.svg" width="130px" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-               <!-- <li class="nav-item active">
-                    <a class="nav-link text-white mr-5" href="#">Quem Somos<span class="sr-only">(Página
-                            atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white mr-2" href="#">Baixar e-book gratuitamente</a>
-                </li>-->
-            </ul>
+            <div class="navBar">
+                <div class="nav-logo">
+                  <a href="index.html"><img src="img/GuiaUni-Logo-v1.0.svg" alt=""></a> 
+                </div>
+                <div class="navBar-link navBar-link-toggle">
+                        <i class="fas fa-bars"></i>
+                </div>
+                <nav class="navBar-items">
+                        <div class="navBar-link"> 
+                            <a class="navBar-a" href="ebook.html">E-book</a>
+                        </div>
+                        <div class="navBar-link"> 
+                            <a class="navBar-a" href="depoimentos.html">Depoimentos</a>
+                        </div>
+                        <div class="navBar-link"> 
+                                <a class="navBar-a" href="quem-somos.html">Quem Somos</a>
+                        </div>
+                        <div class="navBar-link"> 
+                            <a class="navBar-a" href="formulario.html">Cadastre-se</a>
+                        </div>
+                        <div id="divBusca">
+                          <input  type="text" id="title" placeholder="Buscar..."/>
+                          <ul id="artigos"></ul>
+                          
+                          </div>
+                    </nav>
         </div>
-    </nav>
+
 
     <header class="ban-carreiras" >
                         <div class="escrit">
@@ -83,7 +104,26 @@
                     <p class="text-info recuo">Com a tecnologia e a internet cada dia mais presente no nosso dia a dia na sociedade atual, este profissional está ganhando muito espaço de mercado, e se tornará essencial no futuro, existindo muitas vagas de emprego e ofertas de trabalho. Com os  médicos e outros profissionais da saúde concentrando-se em grandes centros, está ficando escasso o atendimento da população em áreas mais remotas, cidades do interior, e vilarejos.</p>
                     <p class="text-info recuo">O Técnico em Telemedicina surge para auxiliar nessa comunicação entre os profissionais da saúde e seus pacientes, sendo o responsável em prestar o suporte no uso das videoconferências, fazendo a montagem do equipamento de vídeo, áudio e internet, e dar um treinamento básico para o profissional que irá utilizar o equipamento.</p>
                     <p class="text-info recuo">Para se tornar um técnico na área, basta ter afinidade por tecnologias, ter conhecimento de sistemas operacionais, software de office, e procurar algum dos cursos existentes para capacitar-se na área.</p>
-                </article>    
+                </article>  
+                </div> </main>
+                <header class="agressive" >
+                        <div class="cadastro">
+                                <form class="cadastro-form" id="contactForm">
+                                    <div class="agres-form">
+                                    <div class="linha">
+                                    <input type="text" id="name" name="name" placeholder="NOME COMPLETO" required>
+                                    <input type="email" id="email" name="email" placeholder="E-MAIL" required>
+                                </div>
+                                <div class="linha">
+                                    <button type="submit" id="submit">Cadastre-se aqui para não perder nada!</button>
+                                    </div>
+                                    </div>
+                                    </form>
+                             
+                        </div>
+                    </header> 
+            <main class="container mt-5">
+                    <div class="arts">
                 <article><a name="artigo_5"><h2><B>Bioinformacionista</B></h2></a>
                     <p>Bioinformacionista e a Ciência da Vida, o profissional da saúde que todos desejarão.
                     </p>
@@ -132,11 +172,28 @@
             </div>
             <div class="fb-comments" data-href="https://guiauniversidade.com/carreiras-em-desenvolvimento.html" data-width="100%" data-numposts="5"></div>
             </main>
+            
+            <header class="agressive" >
+                    <div class="cadastro">
+                            <form class="cadastro-form" id="contactForm">
+                                <div class="agres-form">
+                                <div class="linha">
+                                <input type="text" id="name" name="name" placeholder="NOME COMPLETO" required>
+                                <input type="email" id="email" name="email" placeholder="E-MAIL" required>
+                            </div>
+                            <div class="linha">
+                                <button type="submit" id="submit">Cadastre-se aqui para não perder nada!</button>
+                                </div>
+                                </div>
+                                </form>
+                         
+                    </div>
+                </header> 
             <div class="share">
-                    <div class="facebook"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://guiauniversidade.firebaseapp.com/carreirasdev.html" ><i class="fab fa-facebook-f"></i></a></div></a>
-                    <div class="twitter"><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https://guiauniversidade.firebaseapp.com/carreirasdev.html " ><i class="fab fa-twitter"></i></a></div>
-                    <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://guiauniversidade.firebaseapp.com/carreirasdev.html" ><i class="fab fa-linkedin-in"></i></a></div>
-                    <div class="whatsapp"><a target="_blank" href="whatsapp://send?text=Olha+esse+artigo+https://guiauniversidade.firebaseapp.com/carreirasdev.html" ><i class="fab fa-whatsapp"></i></a></div>
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://guiauniversidade.com/carreiras-em-desenvolvimento.html"><div class="facebook"><i class="fab fa-facebook-f"></i></div></a>
+                    <a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https://guiauniversidade.com/carreiras-em-desenvolvimento.html"><div class="twitter"><i class="fab fa-twitter"></i></div></a>
+                    <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https://guiauniversidade.com/carreiras-em-desenvolvimento.html"><div class="linkedin"><i class="fab fa-linkedin-in"></i></div></a>
+                    <a target="_blank" href="whatsapp://send?text=Olha+esse+artigo+https://guiauniversidade.com/carreiras-em-desenvolvimento.html"> <div class="whatsapp"><i class="fab fa-whatsapp"></i></div></a>
                 </div>
                     <div class="push"></div>
                     </div>
@@ -161,9 +218,11 @@
                             </div>
                     
                         </div>
-
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/formulario.js"></script>
+<script src="js/nav.js"></script>
 </body>
 
 </html>
