@@ -27,45 +27,34 @@
     <!-- End Google Tag Manager (noscript) -->
     
     <div class="wrapper">
-            <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
-                    <a class="navbar-brand" target="_top" href="index.html"><img src="img/GuiaUni-Logo-v1.0.svg" width="130px" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                       <!-- <li class="nav-item active">
-                            <a class="nav-link text-white mr-5" href="#">Quem Somos<span class="sr-only">(Página
-                                    atual)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white mr-2" href="#">Baixar e-book gratuitamente</a>
-                        </li>-->
-                    </ul>
-                </div>
-            </nav>
-            <!--<nav class="navBar">
-                    <nav class="hope">
-                      <div class="logo">
-                        <img src="img/GuiaUni-Logo-v1.0.svg" alt=""></div>
-                      <input type="checkbox" id="menu-toggle" />
-                        <label for="menu-toggle" class="label-toggle"></label>
-                        
-                      <ul> 
-                        <div class="menu">
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#funcionalidades">Funcionalidades</a></li>
-                        <li><a href="#planos">Planos</a></li>
-                        <li><a href="login.html">Login</a></li>
-                        </div>
-                        <div id="divBusca">
-                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                        <img src="img/" id="btnBusca" alt=""/>
-                        </div>
-                        </ul>
-                    </nav>
-                  </nav>-->
+        <div class="navBar">
+            <div class="nav-logo">
+              <a href="index.html"><img src="img/GuiaUni-Logo-v1.0.svg" alt=""></a> 
+            </div>
+            <div class="navBar-link navBar-link-toggle">
+                    <i class="fas fa-bars"></i>
+            </div>
+            <nav class="navBar-items">
+                    <div class="navBar-link"> 
+                        <a class="navBar-a" href="ebook.html">E-book</a>
+                    </div>
+                    <div class="navBar-link"> 
+                        <a class="navBar-a" href="ebook.html">Depoimentos</a>
+                    </div>
+                    <div class="navBar-link"> 
+                            <a class="navBar-a" href="quem-somos.html">Quem Somos</a>
+                    </div>
+                    <div class="navBar-link"> 
+                        <a class="navBar-a" href="formulario.html">Cadastre-se</a>
+                    </div>
+                    <div id="divBusca">
+                      <input  type="text" id="title" placeholder="Buscar..."/>
+                      <ul id="artigos"></ul>
+                      
+                      </div>
+                </nav>
+    </div>
+            
 
     <section class="container mt-5">
         <header class="ban-obrigada" >
@@ -121,7 +110,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/buscagoogle.js"></script>
+    <script src="js/nav.js"></script>
+
 </body>
 
 </html>
